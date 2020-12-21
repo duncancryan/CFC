@@ -1,5 +1,6 @@
 To run this program locally:
 
+At the root:
 - create a virtual environment with the command "python3 -m venv venv"
 - to install the correct dependencies run "pip3 install -r requirements.txt"
 
