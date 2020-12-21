@@ -49,7 +49,6 @@ if (index_result.status_code == 200):
 
     # Assign word count result to word count dictionary
     word_count_dict['words'] = word_count.count(pp_soup)
-    print(word_count_dict)
 
     # Convert word count to JSON
     word_count_json = json.dumps(word_count_dict, indent = 4)

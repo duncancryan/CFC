@@ -1,0 +1,31 @@
+{
+    "urls": [
+        "https://www.cfcunderwriting.com/en-gb/",
+        "https://www.cfcunderwriting.com/en-us/",
+        "https://www.cfcunderwriting.com/en-ca/",
+        "https://www.cfcunderwriting.com/en-au/",
+        "https://www.cfcunderwriting.com/en-gb/",
+        "https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700",
+        "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css",
+        "https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css",
+        "/css/dist/bundle.css?v=20201212.1",
+        "/apple-touch-icon.png",
+        "/favicon-32x32.png",
+        "/favicon-16x16.png",
+        "/site.webmanifest",
+        "/safari-pinned-tab.svg",
+        "/images/logo.svg",
+        "/images/flags/gb.png",
+        "/images/flags/gb.png",
+        "/images/flags/us.png",
+        "/images/flags/ca.png",
+        "/images/flags/au.png",
+        "/media/1744/90pc-stat_0111.png",
+        "/images/logo.svg",
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+        "https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js",
+        "/js/jquery.main.js?v=20201212.1",
+        "/js/dist/app.js?v=20201212.1",
+        "//js.hs-scripts.com/6072523.js"
+    ]
+}
