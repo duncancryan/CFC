@@ -19,5 +19,5 @@ if (index_result.status_code == 200):
     soup = BeautifulSoup(index_content, "html.parser")
 
     test = extract_resources.extract(soup)
-    print(test)
+    print(len(test['urls']))
 
