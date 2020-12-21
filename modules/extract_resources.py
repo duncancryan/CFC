@@ -1,7 +1,7 @@
 # This module contains a function (extract_resources) that will scrape the origin
 # url of each external resource loaded into the page, and populate a list within a dictionary object with these urls
 
-def extract_resources(soup):
+def extract(soup):
     # Initialise empty dictionary
     output = {}
 
@@ -27,7 +27,7 @@ def extract_resources(soup):
     
     # Append src value from script tags to urls array in output dictionary
     for tag in script_tags:
-        if tag.attrs["src"]:
+        if "src" in tag.attrs:
             output['urls'].append(tag.attrs["src"])
 
     return output

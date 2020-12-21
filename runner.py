@@ -18,3 +18,6 @@ if (index_result.status_code == 200):
     # Create BeautifulSoup Object for index url
     soup = BeautifulSoup(index_content, "html.parser")
 
+    test = extract_resources.extract(soup)
+    print(test)
+
