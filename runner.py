@@ -28,8 +28,8 @@ if (index_result.status_code == 200):
     ext_rec_json = json.dumps(external_resources, indent = 4)
 
     # Write to resources.json
-    # with open("resources.json", "w") as outfile:
-    #     outfile.write(ext_rec_json)
+    with open("resources.json", "w") as outfile:
+        outfile.write(ext_rec_json)
 
 # Second Task - access privacy policy and count words
 
@@ -44,8 +44,19 @@ if (index_result.status_code == 200):
     pp_content = pp_result.content
     pp_soup = BeautifulSoup(pp_content, "html.parser")
 
-    test = word_count.count(pp_soup)
-    print(test)
+    # Inititate word count dictionary
+    word_count_dict = {}
+
+    # Assign word count result to word count dictionary
+    word_count_dict['words'] = word_count.count(pp_soup)
+    print(word_count_dict)
+
+    # Convert word count to JSON
+    word_count_json = json.dumps(word_count_dict, indent = 4)
+
+    # Write to wordcount.json
+    with open("wordcount.json", "w") as outfile:
+        outfile.write(word_count_json)
 
     
     
