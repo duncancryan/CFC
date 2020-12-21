@@ -30,5 +30,7 @@ def extract_resources(soup):
         if tag.attrs["src"]:
             output['urls'].append(tag.attrs["src"])
 
+    return output
+
     
 
